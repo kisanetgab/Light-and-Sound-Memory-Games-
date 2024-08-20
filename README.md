@@ -13,7 +13,7 @@ Win/Loss Conditions: The game concludes when the user successfully guesses the e
 
 ## Video Walkthrough 
 
-Add your screen recordings for specified implemented features here:
+screen recordings demo:
 https://www.loom.com/share/d1c97e29edfa4da3987ee876d58915c5?sid=965878d3-5d82-420c-b003-1e32c5852ec4
 
 
