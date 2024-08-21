@@ -1,15 +1,6 @@
 *Memory Game*
 
-This project implements an interactive game interface that provides a dynamic and engaging user experience. The game consists of a series of buttons that light up and play sounds, creating a pattern that the user must replicate. Below is a detailed breakdown of the key functionalities:
-
-Completed Functionality
-User Interface Design: The game interface includes a clear and intuitive layout with a heading, descriptive body text, and four interactive buttons that align with the demo application's design.
-Start/Stop Button: A central "Start" button initiates the game sequence and toggles between "Start" and "Stop" upon user interaction, allowing the player to begin or end the game smoothly.
-Interactive Game Buttons: Each of the game’s four buttons lights up and plays a unique sound when clicked, enhancing the interactive experience.
-Computer-Generated Sequences: The game features an automated sequence where the computer plays back a series of clues, including both sound and visual cues for each button. The user must observe and memorize this pattern.
-Progressive Gameplay: After each correct guess, the game progresses to the next turn, adding an additional step to the pattern, challenging the user to remember and repeat increasingly complex sequences.
-Win/Loss Conditions: The game concludes when the user successfully guesses the entire sequence, resulting in a win. Conversely, the game ends with a loss if the user makes an incorrect guess at any point.
-
+This project implements an interactive game interface that provides a dynamic and engaging user experience. The game consists of a series of buttons that light up and play sounds, creating a pattern that the user must replicate. Below is a detailed breakdown of the key functionalities. The game features an automated sequence where the computer plays back a series of clues. The user must observe and memorize this pattern for the game to progress. The user wins the game if they successfully guess the entire sequence. 
 
 ## Video Walkthrough 
 
