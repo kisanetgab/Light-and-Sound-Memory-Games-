@@ -1,63 +1,102 @@
 body {
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
-  background-color: #095753;
+  background: linear-gradient(135deg, #0a706a, #053d3a);
   color: #F6F6F6;
 }
 
 h1 {
-  font-family: verdana, arial, sans-serif;
+  font-family: 'Roboto', verdana, arial, sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 button {
   padding: 10px;
   border-radius: 10px;
+  transition: transform 0.2s, box-shadow 0.2s;
 }
 
-#gameButtonArea > button {
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#gameButtonArea>button {
   height: 200px;
   width: 200px;
   margin: 2px;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+#gameButtonArea>button:active {
+  transform: scale(0.95);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#button1 {
+  background: linear-gradient(135deg, lightgreen, #78c78a);
+}
+
+#button2 {
+  background: linear-gradient(135deg, lightblue, #78b8de);
+}
+
+#button3 {
+  background: linear-gradient(135deg, pink, #f09aa9);
+}
+
+#button4 {
+  background: linear-gradient(135deg, lightyellow, #fdf3c7);
+}
+
+#button1:active,
+#button1.lit {
+  background: green;
+}
+
+#button2:active,
+#button2.lit {
+  background: blue;
+}
+
+#button3:active,
+#button3.lit {
+  background: red;
+}
+
+#button4:active,
+#button4.lit {
+  background: yellow;
+}
+
+#startButton {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  }
+
+  50% {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 1);
+  }
+
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  }
+}
+
+@media (max-width: 600px) {
+  #gameButtonArea>button {
+    height: 100px;
+    width: 100px;
+  }
 }
 
 .hidden {
   display: none;
 }
-
-#button1 {
-  background-color:lightgreen; 
-}
-
-#button2 {
-  background-color:lightblue; 
-}
-
-#button3 {
-  background-color: pink; 
-}
-
-#button4 {
-  background-color: lightyellow; 
-}
-
-#button1:active, #button1.lit {
-    background:green;
-}
-
-#button2:active, #button2.lit  {
-    background:blue;
-}
-
-#button3:active, #button3.lit  {
-    background:red;
-}
-
-#button4:active, #button4.lit {
-    background:yellow;
-}
-
-
-
-
-
-  
